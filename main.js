@@ -1,12 +1,3 @@
-/*\
-|*| discord sample mmo
-|*|
-|*| Copyright (c) 2020 Komini532
-|*|
-|*| Released under the MIT license.
-|*| see https://opensource.org/licenses/MIT
-\*/
-
 const Discord = require("discord.js");
 const r = require("./control.js");
 const c = require("./config.js");
