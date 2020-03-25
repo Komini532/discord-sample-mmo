@@ -517,6 +517,13 @@ client.on("message", message => {
         skill: "攻撃",
       });
       break;
+    case "sk":
+    case "skill":
+      _channel(message, {
+        do: "sk",
+        skill: args[1],
+      });
+      break;
     case "re":
     case "reset":
       _channel(message, "re");
